@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#centrar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#colorBox{
+    background-color:aqua ;
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20rem;
+}
+
+input,select,h1:not(#mainH1){
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 10rem;
+}
+
+label{
+    text-align: center;
+}
