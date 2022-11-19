@@ -12,13 +12,15 @@
 }
 
 #colorBox{
-    background-color:aqua ;
+    background-color: #afafaf ;
     width: 50rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 1rem;
     box-shadow: 7px 13px 37px black;
+    color: rgb(31, 31, 31);
+    font-family: freestyle Script;
 }
 
 form{
@@ -28,12 +30,22 @@ form{
     max-width: 20rem;
 }
 
+textarea{
+    margin-bottom: 2rem;
+    border: 1px solid lightgrey;
+}
+
+input,select{
+    border: 3px solid lightgrey;
+}
+
 input,select,h1:not(#mainH1){
     margin-bottom: 2rem;
     text-align: center;
-    width: 10rem;
+    width: 20rem;
 }
 
 label{
     text-align: center;
+    font-size: 27px;
 }
