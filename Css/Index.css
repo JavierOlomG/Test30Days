@@ -21,6 +21,7 @@
     box-shadow: 7px 13px 37px black;
     color: rgb(31, 31, 31);
     font-family: freestyle Script;
+    padding-bottom: 2rem;
 }
 
 form{
@@ -32,7 +33,7 @@ form{
 
 textarea{
     margin-bottom: 2rem;
-    border: 1px solid lightgrey;
+    border: 3px solid lightgrey;
 }
 
 input,select{
@@ -45,7 +46,37 @@ input,select,h1:not(#mainH1){
     width: 20rem;
 }
 
+textarea{
+    max-width: 48rem;
+}
+
+textarea:hover,input:hover,select:hover{
+    border: 3px solid rgb(25, 151, 0);  
+}
+
 label{
     text-align: center;
     font-size: 27px;
+}
+
+
+h1:not(#mainH1){
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+
+
+.ReturnIndex{
+    font-size: 3rem;
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    /*Preguntar porque no funcina un margin top/bottom aqui*/
+}
+
+.ReturnIndex:hover{
+    font-size: 3rem;
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    margin-bottom: 2rem;
+    text-decoration: underline;
 }
