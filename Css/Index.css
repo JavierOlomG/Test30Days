@@ -3,6 +3,45 @@
     padding: 0;
 }
 
+h1#mainH1{
+    font-size: 4rem;
+}
+
+
+a.days{
+    text-decoration: none;
+    font-size: 2rem;
+    color: antiquewhite;
+}
+
+a.days:hover{
+    text-decoration: none;
+    font-size: 2rem;
+    color: antiquewhite;
+    text-decoration:underline;
+}
+
+#centrarMain{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#colorBoxMain{
+    background-color: #555353;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23555353' cx='50' cy='0' r='50'/%3E%3Cg fill='%23605554' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%236b5656' cx='50' cy='100' r='50'/%3E%3Cg fill='%23765856' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23805956' cx='50' cy='200' r='50'/%3E%3Cg fill='%238a5b56' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23945d55' cx='50' cy='300' r='50'/%3E%3Cg fill='%239d5e54' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a76053' cx='50' cy='400' r='50'/%3E%3Cg fill='%23b06251' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23b9634f' cx='50' cy='500' r='50'/%3E%3Cg fill='%23c1664c' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23ca6848' cx='50' cy='600' r='50'/%3E%3Cg fill='%23d26a45' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23d96d40' cx='50' cy='700' r='50'/%3E%3Cg fill='%23e0703b' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23e77436' cx='50' cy='800' r='50'/%3E%3Cg fill='%23ee772f' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23f47b27' cx='50' cy='900' r='50'/%3E%3Cg fill='%23fa7f1d' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23FF840D' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 7px 13px 37px black;
+    color: rgb(31, 31, 31);
+    font-family: freestyle Script;
+    padding-bottom: 2rem;
+}
+
 
 #centrar{
     display: flex;
@@ -38,6 +77,8 @@ textarea{
 
 input,select{
     border: 3px solid lightgrey;
+    min-width: 25rem;
+    min-height: 1rem;
 }
 
 input,select,h1:not(#mainH1){
@@ -48,6 +89,8 @@ input,select,h1:not(#mainH1){
 
 textarea{
     max-width: 48rem;
+    min-width: 25rem;
+    min-height: 1rem;
 }
 
 textarea:hover,input:hover,select:hover{
