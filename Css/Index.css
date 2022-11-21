@@ -7,11 +7,11 @@ h1#mainH1{
     font-size: 4rem;
 }
 
-
-a.days{
+p.daysP{
     text-decoration: none;
     font-size: 2rem;
     color: antiquewhite;
+    margin-bottom: 1rem;
 }
 
 a.days:hover{
@@ -108,12 +108,15 @@ h1:not(#mainH1){
     font-size: 3rem;
 }
 
+/*Poner margin top al volver al inicio*/
+p#ReturnIndex{
+    margin-top: 1.5rem;
+}
 
 .ReturnIndex{
     font-size: 3rem;
     text-decoration: none;
     color: rgb(31, 31, 31);
-    /*Preguntar porque no funcina un margin top/bottom aqui*/
 }
 
 .ReturnIndex:hover{
@@ -123,3 +126,6 @@ h1:not(#mainH1){
     margin-bottom: 2rem;
     text-decoration: underline;
 }
+
+
+
