@@ -129,3 +129,43 @@ p#ReturnIndex{
 
 
 
+/*CheatSheet*/
+
+#cheatSheet{
+    width: 100%;
+    margin: auto;
+    text-align: left;
+}
+
+.Colum h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+}
+
+.Colum{
+    width: 50%;
+    float: left;
+}
+
+.Colum p, .Colum h2, hr{
+    max-width: 99%;
+    margin-left: 2rem;
+}
+
+.label{
+    font-family: "Copperplate Gothic "; 
+    font-size: 1.2rem;
+}
+
+.answer{
+    padding-left: 1rem;
+    font-family: sans-serif;
+}
+
+hr{
+    background-color: black;
+    height: 1px;
+    width: 355px;
+    border: none;
+}
